@@ -99,7 +99,7 @@ public class ParticuleSystemsControlerEmotion : MonoBehaviour
         color1 = preset.Color1;
         color2 = preset.Color2;
 
-        // ??? preset.ShapePos;
+        ShapePosition = preset.ShapePos;
         SliderVeloLinearX = preset.VeloLin.x;
         SliderVeloLinearY = preset.VeloLin.y;
         SliderVeloLinearZ = preset.VeloLin.z;
@@ -125,7 +125,7 @@ public class ParticuleSystemsControlerEmotion : MonoBehaviour
 
         SliderNoiseScale = preset.NoiseScl;
 
-        // ??? preset.SizeLif;
+        SizeLife = preset.SizeLif;
 
         
     }
